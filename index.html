@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jared Rinaldi | Web Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAV BAR SECTION -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo"><i class="fas fa-meteor"></i> Jared Rinaldi</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="./projects.html" class="navbar_links">PROJECTS</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="./about.html" class="navbar_links">ABOUT</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="./contact.html" class="navbar_links">CONTACT</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="" class="navbar_links">RESUME</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="main">
+        <div class="main_container">
+            <div class="main_content">
+                <p> Greetings.</p>
+                <br>
+                <h1>My name is Jared Rinaldi.</h1>
+                <h2>I'm a web developer.</h2>
+                <br>
+                <div class="body_buttons">
+                    <button class="main_btn">
+                        <a href="./projects.html">Latest Projects.</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects">
+        <h2>- Projects -<br>Here are the latest things I've worked on:</h2>
+        <div class="projects_container">
+            <div class="projects_card">
+                <h3>"Barnabus" - the Bar-Share App</h3>
+                <p>This is a prototype version of <strong>Barnabus</strong>, a full-stack app meant to facilitate "bar-sharing."
+                    I used Python, React, MapBox, Javascript, HTML and CSS.</p>
+            </div>
+            <div class="projects_card">
+                <h3>"PILGRIM" - Band Site</h3>
+                <p>This is a website I made for my ongoing psychedelic rock project, "Pilgrim."
+                    HTML, CSS, Javascript and React were used to create an exciting and dynamic experience for page visitors.
+                </p>
+            </div>
+            <div class="projects_card">
+                <h3>Cryptocurrency App</h3>
+                <p>This is an app I made using the API from coinmarketcap.com and the devaluation of the dollar.
+                    I used Python, MatPlotLib, Plotly, Javascript, HTML and CSS for this project.
+                </p>
+            </div>
+            <div class="projects_card">
+                <h3>"Warlord Grandmas" - A Grid RPG</h3>
+                <p>This was my attempt at making a Final Fantasy Tactics clone, albeit far simpler. I coded out a chess program
+                     and added extra functionality. Python, Pygame and many original drawings were my weapons of choice for this project.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION --> 
+    <div class="footer_container">
+        <div class="footer_links">
+            <div class="footer_link-wrapper">
+                <form class="footer_link-items">
+                    <fieldset>
+                        <legend>CONTACT</legend>
+                        <h2>Say Hello.</h2>
+                        <h4>Fill out the form below and I'll get back to you as soon as possible.</h4>
+                        <br>
+                        <div class="input_first_name">
+                            <input>
+                        </div>
+                        <div class="input_last_name">
+                            <input>
+                        </div>
+                        <button class="submit_button">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="social_media">
+            <div class="social_media-wrap">
+                <div class="social_icons">
+                    <br>
+                    <a href="/" id="github_logo" class="social_icon-link" target="_blank">
+                        <i class="fab fa-github"></i> GitHub </a>
+                    <a href="/" id="linkedin_logo" class="social_icon-link" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
